@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SehirIlceDatBound", "SehirIlceDatBound\SehirIlceDatBound.csproj", "{6E87E2F6-DAD3-4DA4-8495-145A4BCB47FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E87E2F6-DAD3-4DA4-8495-145A4BCB47FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E87E2F6-DAD3-4DA4-8495-145A4BCB47FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E87E2F6-DAD3-4DA4-8495-145A4BCB47FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E87E2F6-DAD3-4DA4-8495-145A4BCB47FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {023ED301-A461-4FBB-922A-FEB8CC46B7B3}
+	EndGlobalSection
+EndGlobal
