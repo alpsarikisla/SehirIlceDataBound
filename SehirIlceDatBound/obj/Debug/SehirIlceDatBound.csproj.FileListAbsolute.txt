@@ -1,0 +1,12 @@
+C:\Users\302-PC\Documents\GitHub\SehirIlceDataBound\SehirIlceDatBound\bin\Debug\SehirIlceDatBound.exe.config
+C:\Users\302-PC\Documents\GitHub\SehirIlceDataBound\SehirIlceDatBound\bin\Debug\SehirIlceDatBound.exe
+C:\Users\302-PC\Documents\GitHub\SehirIlceDataBound\SehirIlceDatBound\bin\Debug\SehirIlceDatBound.pdb
+C:\Users\302-PC\Documents\GitHub\SehirIlceDataBound\SehirIlceDatBound\bin\Debug\DataAccessLayer.dll
+C:\Users\302-PC\Documents\GitHub\SehirIlceDataBound\SehirIlceDatBound\bin\Debug\DataAccessLayer.pdb
+C:\Users\302-PC\Documents\GitHub\SehirIlceDataBound\SehirIlceDatBound\obj\Debug\SehirIlceDatBound.csproj.AssemblyReference.cache
+C:\Users\302-PC\Documents\GitHub\SehirIlceDataBound\SehirIlceDatBound\obj\Debug\SehirIlceDatBound.Form1.resources
+C:\Users\302-PC\Documents\GitHub\SehirIlceDataBound\SehirIlceDatBound\obj\Debug\SehirIlceDatBound.Properties.Resources.resources
+C:\Users\302-PC\Documents\GitHub\SehirIlceDataBound\SehirIlceDatBound\obj\Debug\SehirIlceDatBound.csproj.GenerateResource.cache
+C:\Users\302-PC\Documents\GitHub\SehirIlceDataBound\SehirIlceDatBound\obj\Debug\SehirIlceDatBound.csproj.CoreCompileInputs.cache
+C:\Users\302-PC\Documents\GitHub\SehirIlceDataBound\SehirIlceDatBound\obj\Debug\SehirIlceDatBound.exe
+C:\Users\302-PC\Documents\GitHub\SehirIlceDataBound\SehirIlceDatBound\obj\Debug\SehirIlceDatBound.pdb

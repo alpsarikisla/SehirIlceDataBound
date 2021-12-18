@@ -33,9 +33,9 @@
             this.cb_sehir = new System.Windows.Forms.ComboBox();
             this.cb_ilce = new System.Windows.Forms.ComboBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btn_gonder = new System.Windows.Forms.Button();
             this.tb_adres = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.btn_gonder = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -89,6 +89,16 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Adres";
             // 
+            // btn_gonder
+            // 
+            this.btn_gonder.Location = new System.Drawing.Point(67, 156);
+            this.btn_gonder.Name = "btn_gonder";
+            this.btn_gonder.Size = new System.Drawing.Size(190, 23);
+            this.btn_gonder.TabIndex = 4;
+            this.btn_gonder.Text = "Gönder";
+            this.btn_gonder.UseVisualStyleBackColor = true;
+            this.btn_gonder.Click += new System.EventHandler(this.btn_gonder_Click);
+            // 
             // tb_adres
             // 
             this.tb_adres.Location = new System.Drawing.Point(67, 84);
@@ -105,15 +115,6 @@
             this.label3.Size = new System.Drawing.Size(40, 13);
             this.label3.TabIndex = 1;
             this.label3.Text = "Adres :";
-            // 
-            // btn_gonder
-            // 
-            this.btn_gonder.Location = new System.Drawing.Point(67, 156);
-            this.btn_gonder.Name = "btn_gonder";
-            this.btn_gonder.Size = new System.Drawing.Size(190, 23);
-            this.btn_gonder.TabIndex = 4;
-            this.btn_gonder.Text = "Gönder";
-            this.btn_gonder.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DataAccessLayer;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,7 +20,15 @@ namespace SehirIlceDatBound
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            DataModel murtaza = new DataModel();
+            cb_sehir.ValueMember = "ID";
+            cb_sehir.DisplayMember = "Isim";
+            cb_sehir.DataSource = murtaza.SehirleriGetir();
+        }
 
+        private void btn_gonder_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(cb_sehir.Text + " " + cb_sehir.SelectedValue);
         }
     }
 }
