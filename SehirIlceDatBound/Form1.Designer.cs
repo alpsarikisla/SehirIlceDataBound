@@ -36,6 +36,7 @@
             this.btn_gonder = new System.Windows.Forms.Button();
             this.tb_adres = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.tb_ozet = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -64,6 +65,8 @@
             this.cb_sehir.Name = "cb_sehir";
             this.cb_sehir.Size = new System.Drawing.Size(190, 21);
             this.cb_sehir.TabIndex = 2;
+            this.cb_sehir.Text = "Şehir Seçiniz...";
+            this.cb_sehir.SelectedIndexChanged += new System.EventHandler(this.cb_sehir_SelectedIndexChanged);
             // 
             // cb_ilce
             // 
@@ -116,11 +119,21 @@
             this.label3.TabIndex = 1;
             this.label3.Text = "Adres :";
             // 
+            // tb_ozet
+            // 
+            this.tb_ozet.Enabled = false;
+            this.tb_ozet.Location = new System.Drawing.Point(302, 22);
+            this.tb_ozet.Multiline = true;
+            this.tb_ozet.Name = "tb_ozet";
+            this.tb_ozet.Size = new System.Drawing.Size(422, 104);
+            this.tb_ozet.TabIndex = 4;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.tb_ozet);
             this.Controls.Add(this.groupBox1);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -128,6 +141,7 @@
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -141,6 +155,7 @@
         private System.Windows.Forms.Button btn_gonder;
         private System.Windows.Forms.TextBox tb_adres;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox tb_ozet;
     }
 }
 
